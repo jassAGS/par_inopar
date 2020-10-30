@@ -1,4 +1,3 @@
-
 function parono(numero){
   var probar =numero;
   var texto ="";
@@ -8,9 +7,11 @@ function parono(numero){
     texto="no es par";
   }
 
-  alert(texto);
+  return texto;
 }
 var numero = prompt("ingrese el numero");
 
 parono(numero);
+
+alert(parono(numero) );
 
